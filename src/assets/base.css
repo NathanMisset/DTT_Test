@@ -2,38 +2,46 @@
   font-family: 'Montserrat';
   font-style: bold;
   font-weight: 700;
-  src: url(https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap);
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w0aXpsog.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 @font-face {
   font-family: 'Montserrat';
-  font-style: semi-bold;
   font-weight: 600;
-  src: url(https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap);
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu173w0aXpsog.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 
 @font-face {
   font-family: 'Montserrat';
-  font-style: medium;
   font-weight: 500;
-  src: url(https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap);
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Hw0aXpsog.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 @font-face {
   font-family: 'Montserrat';
-  font-style: medium-italic;
+  font-style: italic;
   font-weight: 500;
-  src: url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@500&display=swap);
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq5Z9WXV0poK5.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 @font-face {
-  font-family: 'Open Sans';
-  font-style: semi-bold;
+  font-family: 'Open-Sans';
   font-weight: 600;
-  src: url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap);
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1x4taVIGxA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 @font-face {
-  font-family: 'Open Sans';
-  font-style: regular;
+  font-family: 'Open-Sans';
   font-weight: 400;
-  src: url(https://fonts.googleapis.com/css2?family=Open+Sans&:wght@400display=swap);
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4taVIGxA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 
 
@@ -51,80 +59,13 @@
   --text-color-primary: #000;
   --text-color-secondary: #4A4B4C;
   --text-color-hyperlink: #067BC2;
-
-  font-family: 'Montserrat', bold, semi-bold, medium, medium-italic;
-  font-family: 'Open-Sans', semi-bold, regular;
+  
 }
 
 :root {
-  --color-background: var(--elements-color-background-2);
+  --color-background: var(--elements-color-background-1);
 
-  --color-heading: var(--elements-color-background-1);
+  --color-heading: var(--elements-color-background-2);
 
-  --font-family-Montserrat-bold: 'Montserrat', bold;
-  --font-family-Montserrat-semibold: 'Montserrat', semi-bold;
-  --font-family-Montserrat-medium: 'Montserrat', medium;
-  --font-family-Montserrat-mediumitalic: 'Montserrat', medium-italic;
-  --font-family-OpenSans-semibold: 'Open-Sans', semi-bold;
-  --font-family-OpenSans-regular: 'Open-Sans', regular;
-}
-h1 {
-  font-family: var(--font-family-Montserrat-bold);
-  font-size: 32px;
-}
 
-h2 {
-  font-family: var(--font-family-Montserrat-bold);
-  font-size: 22px;
-}
-
-header:active {
-  font-family: var(--font-family-Montserrat-bold);
-  font-size: 18px;
-}
-
-button,
-.tabs {
-  font-family: var(--font-family-Montserrat-bold);
-  font-size: 18px;
-}
-
-.backbutton {
-  font-family: var(--font-family-Montserrat-semibold);
-  font-size: 16px;
-}
-
-.inputfieldtitle {
-  font-family: var(--font-family-Montserrat-semibold);
-  font-size: 14px;
-}
-
-header{
-  font-family: var(--font-family-Montserrat-medium);
-  font-size: 18px;
-}
-
-.emptystatemessage {
-  font-family: var(--font-family-Montserrat-medium);
-  font-size: 18px;
-}
-
-.errormessag {
- font-family: var(--font-family-Montserrat-mediumitalic);
- font-size: 14px;
-}
-.listinginformation {
-  font-family: var(--font-family-OpenSans-semibold);
-  font-size: 16px;
-}
-
-.inputfield {
-  font-family: var(--font-family-OpenSans-regular);
-  font-size: 14px;
-}
-
-body {
-  font-family: var(--font-family-OpenSans-regular);
-  font-size: 18px;
-  background: var(--color-background);
 }
